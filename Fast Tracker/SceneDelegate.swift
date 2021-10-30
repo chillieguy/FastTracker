@@ -18,8 +18,58 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: windowScene.screen.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = ViewController()
+        window?.rootViewController = createTabbar()
         window?.makeKeyAndVisible()
+    }
+    
+    // Custom tabbar and navigation setup
+    
+    func createTabbar() -> UITabBarController {
+        let tabbar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemGreen
+        tabbar.viewControllers = [createTrackerNC(), createInfoNC(), createHistoryNC(), createProfileNC()]
+        
+        return tabbar
+    }
+    
+    func createTrackerNC() -> UINavigationController {
+        let trackerVC = TrackerVC()
+        
+        trackerVC.title = "Tracker"
+        trackerVC.tabBarItem.image = UIImage(systemName: "timer")
+        trackerVC.tabBarItem.title = "Tracker"
+        
+        return UINavigationController(rootViewController: trackerVC)
+    }
+    
+    func createInfoNC() -> UINavigationController {
+        let infoVC = InfoVC()
+        
+        infoVC.title = "Info"
+        infoVC.tabBarItem.image = UIImage(systemName: "info")
+        infoVC.tabBarItem.title = "Info"
+        
+        return UINavigationController(rootViewController: infoVC)
+    }
+    
+    func createHistoryNC() -> UINavigationController {
+        let historyVC = HistoryVC()
+        
+        historyVC.title = "History"
+        historyVC.tabBarItem.image = UIImage(systemName: "list.dash")
+        historyVC.tabBarItem.title = "History"
+        
+        return UINavigationController(rootViewController: historyVC)
+    }
+    
+    func createProfileNC() -> UINavigationController {
+        let profileVC = ProfileVC()
+        
+        profileVC.title = "Profile"
+        profileVC.tabBarItem.image = UIImage(systemName: "person")
+        profileVC.tabBarItem.title = "Profile"
+        
+        return UINavigationController(rootViewController: profileVC)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

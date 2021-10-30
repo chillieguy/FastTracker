@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		FF131E32272D991500DF1597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E31272D991500DF1597 /* AppDelegate.swift */; };
 		FF131E34272D991500DF1597 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E33272D991500DF1597 /* SceneDelegate.swift */; };
-		FF131E36272D991500DF1597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E35272D991500DF1597 /* ViewController.swift */; };
+		FF131E36272D991500DF1597 /* TrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E35272D991500DF1597 /* TrackerVC.swift */; };
 		FF131E3B272D991700DF1597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF131E3A272D991700DF1597 /* Assets.xcassets */; };
 		FF131E3E272D991700DF1597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF131E3C272D991700DF1597 /* LaunchScreen.storyboard */; };
 		FF131E49272D991800DF1597 /* Fast_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E48272D991800DF1597 /* Fast_TrackerTests.swift */; };
 		FF131E53272D991800DF1597 /* Fast_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E52272D991800DF1597 /* Fast_TrackerUITests.swift */; };
 		FF131E55272D991800DF1597 /* Fast_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E54272D991800DF1597 /* Fast_TrackerUITestsLaunchTests.swift */; };
+		FF131E62272DA6B500DF1597 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E61272DA6B500DF1597 /* InfoVC.swift */; };
+		FF131E64272DA6D400DF1597 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E63272DA6D400DF1597 /* HistoryVC.swift */; };
+		FF131E66272DA6F500DF1597 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E65272DA6F500DF1597 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		FF131E2E272D991500DF1597 /* Fast Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF131E31272D991500DF1597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF131E33272D991500DF1597 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF131E35272D991500DF1597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF131E35272D991500DF1597 /* TrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerVC.swift; sourceTree = "<group>"; };
 		FF131E3A272D991700DF1597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF131E3D272D991700DF1597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF131E3F272D991700DF1597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		FF131E4E272D991800DF1597 /* Fast TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF131E52272D991800DF1597 /* Fast_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast_TrackerUITests.swift; sourceTree = "<group>"; };
 		FF131E54272D991800DF1597 /* Fast_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF131E61272DA6B500DF1597 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		FF131E63272DA6D400DF1597 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		FF131E65272DA6F500DF1597 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				FF131E31272D991500DF1597 /* AppDelegate.swift */,
 				FF131E33272D991500DF1597 /* SceneDelegate.swift */,
-				FF131E35272D991500DF1597 /* ViewController.swift */,
+				FF131E35272D991500DF1597 /* TrackerVC.swift */,
+				FF131E61272DA6B500DF1597 /* InfoVC.swift */,
+				FF131E63272DA6D400DF1597 /* HistoryVC.swift */,
+				FF131E65272DA6F500DF1597 /* ProfileVC.swift */,
 				FF131E3A272D991700DF1597 /* Assets.xcassets */,
 				FF131E3C272D991700DF1597 /* LaunchScreen.storyboard */,
 				FF131E3F272D991700DF1597 /* Info.plist */,
@@ -254,7 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF131E36272D991500DF1597 /* ViewController.swift in Sources */,
+				FF131E66272DA6F500DF1597 /* ProfileVC.swift in Sources */,
+				FF131E62272DA6B500DF1597 /* InfoVC.swift in Sources */,
+				FF131E36272D991500DF1597 /* TrackerVC.swift in Sources */,
+				FF131E64272DA6D400DF1597 /* HistoryVC.swift in Sources */,
 				FF131E32272D991500DF1597 /* AppDelegate.swift in Sources */,
 				FF131E34272D991500DF1597 /* SceneDelegate.swift in Sources */,
 			);
