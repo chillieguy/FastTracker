@@ -20,6 +20,7 @@
 		FF131E66272DA6F500DF1597 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF131E65272DA6F500DF1597 /* ProfileVC.swift */; };
 		FF2FDA56273729CA00D305FA /* FTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FDA55273729CA00D305FA /* FTButton.swift */; };
 		FF2FDA5827372CE700D305FA /* FTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FDA5727372CE700D305FA /* FTTextField.swift */; };
+		FF2FDA5E2737404D00D305FA /* FTFastInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FDA5D2737404D00D305FA /* FTFastInfoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FF131E65272DA6F500DF1597 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		FF2FDA55273729CA00D305FA /* FTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTButton.swift; sourceTree = "<group>"; };
 		FF2FDA5727372CE700D305FA /* FTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTTextField.swift; sourceTree = "<group>"; };
+		FF2FDA5D2737404D00D305FA /* FTFastInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTFastInfoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,17 +109,10 @@
 		FF131E30272D991500DF1597 /* Fast Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				FF131E31272D991500DF1597 /* AppDelegate.swift */,
-				FF131E33272D991500DF1597 /* SceneDelegate.swift */,
-				FF131E35272D991500DF1597 /* TrackerVC.swift */,
-				FF131E61272DA6B500DF1597 /* InfoVC.swift */,
-				FF131E63272DA6D400DF1597 /* HistoryVC.swift */,
-				FF131E65272DA6F500DF1597 /* ProfileVC.swift */,
-				FF131E3A272D991700DF1597 /* Assets.xcassets */,
-				FF131E3C272D991700DF1597 /* LaunchScreen.storyboard */,
+				FF2FDA5A27373F4400D305FA /* Screens */,
+				FF2FDA5927373F2B00D305FA /* Custom Components */,
+				FF2FDA5B27373F8F00D305FA /* Support */,
 				FF131E3F272D991700DF1597 /* Info.plist */,
-				FF2FDA55273729CA00D305FA /* FTButton.swift */,
-				FF2FDA5727372CE700D305FA /* FTTextField.swift */,
 			);
 			path = "Fast Tracker";
 			sourceTree = "<group>";
@@ -137,6 +132,46 @@
 				FF131E54272D991800DF1597 /* Fast_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "Fast TrackerUITests";
+			sourceTree = "<group>";
+		};
+		FF2FDA5927373F2B00D305FA /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				FF2FDA5C27373FAF00D305FA /* Cells */,
+				FF2FDA55273729CA00D305FA /* FTButton.swift */,
+				FF2FDA5727372CE700D305FA /* FTTextField.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		FF2FDA5A27373F4400D305FA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FF131E35272D991500DF1597 /* TrackerVC.swift */,
+				FF131E61272DA6B500DF1597 /* InfoVC.swift */,
+				FF131E63272DA6D400DF1597 /* HistoryVC.swift */,
+				FF131E65272DA6F500DF1597 /* ProfileVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FF2FDA5B27373F8F00D305FA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FF131E31272D991500DF1597 /* AppDelegate.swift */,
+				FF131E33272D991500DF1597 /* SceneDelegate.swift */,
+				FF131E3A272D991700DF1597 /* Assets.xcassets */,
+				FF131E3C272D991700DF1597 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FF2FDA5C27373FAF00D305FA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF2FDA5D2737404D00D305FA /* FTFastInfoCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +312,7 @@
 				FF2FDA56273729CA00D305FA /* FTButton.swift in Sources */,
 				FF131E34272D991500DF1597 /* SceneDelegate.swift in Sources */,
 				FF2FDA5827372CE700D305FA /* FTTextField.swift in Sources */,
+				FF2FDA5E2737404D00D305FA /* FTFastInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
