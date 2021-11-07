@@ -22,6 +22,7 @@
 		FF2FDA5827372CE700D305FA /* FTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FDA5727372CE700D305FA /* FTTextField.swift */; };
 		FF2FDA5E2737404D00D305FA /* FTFastInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FDA5D2737404D00D305FA /* FTFastInfoCell.swift */; };
 		FFBA774C2738290B0058C4D4 /* FTTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA774B2738290B0058C4D4 /* FTTitleLabel.swift */; };
+		FFBA774E273829D50058C4D4 /* FTBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA774D273829D40058C4D4 /* FTBodyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FF2FDA5727372CE700D305FA /* FTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTTextField.swift; sourceTree = "<group>"; };
 		FF2FDA5D2737404D00D305FA /* FTFastInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTFastInfoCell.swift; sourceTree = "<group>"; };
 		FFBA774B2738290B0058C4D4 /* FTTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTTitleLabel.swift; sourceTree = "<group>"; };
+		FFBA774D273829D40058C4D4 /* FTBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTBodyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				FF2FDA55273729CA00D305FA /* FTButton.swift */,
 				FF2FDA5727372CE700D305FA /* FTTextField.swift */,
 				FFBA774B2738290B0058C4D4 /* FTTitleLabel.swift */,
+				FFBA774D273829D40058C4D4 /* FTBodyLabel.swift */,
 			);
 			path = "Custom Components";
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				FF2FDA56273729CA00D305FA /* FTButton.swift in Sources */,
 				FF131E34272D991500DF1597 /* SceneDelegate.swift in Sources */,
 				FF2FDA5827372CE700D305FA /* FTTextField.swift in Sources */,
+				FFBA774E273829D50058C4D4 /* FTBodyLabel.swift in Sources */,
 				FF2FDA5E2737404D00D305FA /* FTFastInfoCell.swift in Sources */,
 				FFBA774C2738290B0058C4D4 /* FTTitleLabel.swift in Sources */,
 			);
